@@ -5,7 +5,7 @@ def Solver(n,L,M,R):
         Solver(n-1,M,L,R)
 
 def main():
-    num = int(input("ENTER NUMBER OF DISK "))
+    num = int(input("ENTER NUMBER OF DISKS "))
     while num<3:
         num = int(input("ENTER NUMBER GREATER THAN 2 "))
     source = "L"
